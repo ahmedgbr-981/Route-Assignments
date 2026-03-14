@@ -1,0 +1,366 @@
+*{
+   
+   box-sizing: border-box;
+   
+}
+
+body {
+  font-family: system-ui;
+  margin: 0;
+  
+}
+
+.hero {
+  
+  margin: auto;
+  margin-top: 60px;
+  
+}
+
+.heroRight {
+  
+  padding: 20px;
+  display: inline-block;
+   border-radius: 15px;
+  
+}
+
+.heroRight img{
+
+  border-radius: 10%;
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+ 
+}
+
+.heroLeft {
+  display: inline-block;
+  vertical-align: top;
+  padding: 50px;
+}
+
+.hero .heroLeft h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.hero .heroLeft p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.hero .heroLeft button {
+  margin: 5px;
+  font-size: large;
+  padding: 20px 35px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.14);
+}
+
+.btn1 {
+  background-color: black;
+  color: white;
+}
+.btn2 {
+  background-color: white;
+}
+
+.whychooseUs {
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.whychooseUs h2 {
+  font-size: 35px;
+}
+
+.whychooseUs .para {
+  font-size: 20px;
+  
+}
+.cards {
+  margin-top: 100px;
+}
+
+.card {
+  
+  height: 290px;
+  border-radius: 15px;
+  padding: 40px 20px 0px;
+  overflow: auto;
+  
+}
+
+.whychooseUs .cards .container{
+  padding: 15px;
+  float: left;
+}
+
+.one {
+  background-color: #dbeafe;
+  
+}
+
+.two {
+  background-color: rgb(208, 250, 229);
+
+}
+
+.three {
+  background-color: #f3e8ff;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.outerShape {
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  position: relative;
+  left: 40%;
+}
+
+.color1 {
+  background-color: #155dfc;
+}
+.color2 {
+  background-color: rgb(0, 153, 102);
+}
+.color3 {
+  background-color: #9810fa;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.square {
+  border-radius: 30%;
+}
+
+.innerShape {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  position: relative ;
+  top: 25%;
+  left: 25%;
+}
+
+
+p {
+  color: rgb(80, 91, 107);
+}
+
+.img-para {
+  margin-top: 80px;
+}
+
+.whychooseUs-img img{
+ 
+  width: 100%;
+  float: left;
+  margin-top: 40px;
+  
+}
+
+.MoreThanJustaGym {
+ 
+  text-align: start;
+  float: right;
+}
+
+.container2{
+  padding-left: 55px;
+}
+
+.cons {
+  border-left: 4px solid black;
+  padding-left: 10px;
+  
+  height: 80px;
+}
+
+.testmonials {
+  margin: 0;
+  padding: 80px;
+  margin-top: 100px;
+  background-color: #f9fafb;
+}
+ .testcards{
+  margin-top: 50px;
+ }
+.container3{
+  
+  float: left;
+  padding: 10px;
+}
+.usercard {
+  border-radius: 10px;
+  padding: 10px;
+  overflow: auto;
+  height: 200px;
+  
+}
+
+.usercard img {
+  width: 15%;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  float: left;
+}
+
+.userinfo {
+  float: left;
+  text-align: start;
+  padding: 9px 15px;
+}
+
+.userinfo h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.records {
+ 
+  overflow:auto;
+  margin: auto;
+  background-color: #f1f5f9;
+  border: 1px solid #d6e4f2af;
+  border-radius: 20px;
+  margin-top: 90px;
+  
+}
+.records span {
+  color: rgba(87, 86, 86, 0.914);
+}
+.records h2 {
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.record {
+  float: left;
+  padding: 30px 0px 30px 80px;
+  
+}
+
+.container4{
+  padding: 10px;
+  float: left;
+  
+}
+
+
+.names {
+  margin: 0px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.141);
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+
+
+.dropdown {
+  
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.141);
+  font-family: system-ui;
+  font-size: 20px;
+  width: 80%;
+}
+
+.applcation {
+  font-weight: 400;
+  font-size: 20px;
+  margin: auto;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+form {
+  background-color: #f9fafb;
+  margin-top: 80px;
+  padding: 35px;
+  border-radius: 10px;
+}
+
+.userGoals {
+  resize: none;
+  width: 80%;
+  height: 90px;
+  border-radius: 10px;
+  font-size: larger;
+  padding: 25px;
+  font-family: system-ui;
+}
+
+#formbtn {
+  margin: 30px 30px 20px 0px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 80%;
+  padding: 25px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.footer {
+  background-color: red;
+  padding: 100px;
+  background-color: #101828;
+  margin-top: 100px;
+}
+
+.footer p {
+  color: rgba(255, 255, 255, 0.63);
+}
+
+.footerDisplay {
+  float: left;
+}
+
+.soialMedia {
+  width: 40%;
+  margin: 0;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.63);
+}
+
+.links {
+  width: 20%;
+  padding-left: 100px;
+  margin: 0;
+}
+
+.Contact-info {
+  width: 20%;
+  float: right;
+  margin: 0;
+}
+
+.soial {
+  margin-top: 30px;
+}
+
+.soial a {
+  padding-right: 20px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.63);
+}

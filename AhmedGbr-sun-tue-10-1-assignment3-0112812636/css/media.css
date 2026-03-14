@@ -1,0 +1,110 @@
+
+/* small screen */
+@media screen and (min-width:640px)  {
+   .sm-100{
+    width: 100%;
+   }
+
+   .sm-100-noSticky{
+    width: 100%;
+    position: static;
+   }
+   .sm-50{
+    width: 50%;
+   }
+   .sm-33
+   {
+    width: 33.333%;
+   }
+   .sm-25{
+    width: 25%;
+   }
+   
+   
+}
+
+/* medium screen */
+@media screen and (min-width:768px)  {
+   .md-100{
+    width: 100%;
+   }
+   .md-50{
+    width: 50%;
+   }
+   .md-33
+   {
+    width: 33.333%;
+   }
+   .md-25{
+    width: 25%;
+   }
+}
+
+/* large screen */
+@media screen and (min-width:1024px)  {
+    .lg-100{
+    width: 100%;
+   }
+   .lg-50{
+    width: 50%;
+   }
+   .lg-45{
+    width: 45%;
+   }
+   .lg-33
+   {
+    width: 33.333%;
+   }
+   .lg-33-sticky{
+      width: 33.333%;
+      position: sticky;
+      top: 80px;
+   }
+   .lg-25{
+    width: 25%;
+   }
+   .pad-lg{
+      padding: 150px;
+   }
+}
+
+/* x-large screen */
+@media screen and (min-width:1280px)  {
+   .xlg-100{
+    width: 100%;
+   }
+      .xlg-60{
+    width: 60%;
+   }
+
+   .xlg-50{
+    width: 50%;
+   }
+   .xlg-33
+   {
+    width: 33.333%;
+   }
+
+   .xlg-33-sticky
+   {
+      width: 33.333%;
+      position: sticky;
+      top: 80px;
+   }
+
+ 
+   .xlg-25{
+    width: 25%;
+   }
+   .xlg-23{
+    width: 23%;
+   }
+
+   .show{
+    display: block;
+   }
+
+   .pad-xlg{
+      padding: 150px;
+   }
+}
