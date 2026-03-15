@@ -105,6 +105,10 @@
     font-size: 1rem;
     line-height: 1.5rem;
   }
+
+  .ps-rebel-img-img{
+    width: 25%;
+  }
 }
 
 @media (min-width: 640px) {
@@ -246,6 +250,10 @@
   .md-footerleft-h2-icon{
     font-size: 1.7rem;
     line-height: 2.3rem;
+  }
+
+  .md-rebel-img-img{
+    width: 10%;
   }
 }
 @media (min-width: 1024px) {
