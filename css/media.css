@@ -92,11 +92,18 @@
     flex-direction: column;
     padding: 15px 5px;
   }
+
+
   .ps-copyright {
     flex-direction: column;
     font-size: 0.75rem;
     line-height: 1.2rem;
     font-weight: 500;
+  }
+
+  .ps-footerleft-h2-icon{
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -183,6 +190,11 @@
   .sm-joinUS-right {
     width: 100%;
   }
+
+  .sm-footerleft-h2-icon{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 @media (min-width: 768px) {
   .md-heroLeft-h2 {
@@ -229,6 +241,11 @@
     font-size: 1.125rem;
     line-height: 1.75rem;
     font-weight: 600;
+  }
+
+  .md-footerleft-h2-icon{
+    font-size: 1.7rem;
+    line-height: 2.3rem;
   }
 }
 @media (min-width: 1024px) {
