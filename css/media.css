@@ -1,0 +1,392 @@
+@media (max-width: 640px) {
+  .ps-container {
+    width: 90%;
+  }
+
+  .ps-heroLeft-h2 {
+    font-size: 2.9375rem;
+    line-height: 3.9375rem;
+  }
+  .ps-bgforHero {
+    height: 150vh;
+  }
+
+  .ps-nav-none {
+    display: none;
+  }
+  .ps-heroLeft-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0px;
+  }
+  .ps-heroRight-pos {
+    left: 10%;
+    top: 100%;
+  }
+  .ps-heroleft-p {
+    font-size: 1.3125rem;
+    line-height: 1.75rem;
+  }
+
+  .ps-artleft {
+    width: 100%;
+  }
+
+  .ps-latestArt {
+    flex-direction: column;
+  }
+
+  .ps-artHead-h2 {
+    font-size: 2.625rem;
+    line-height: 2.625rem;
+  }
+
+  .ps-Artcard-h3 {
+    font-size: 1.3125rem;
+    line-height: 1.75rem;
+    margin-top: 10px;
+  }
+
+  .ps-desc-p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 15px 0px;
+  }
+
+  .ps-info {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .ps-user-engag-img {
+    width: 50%;
+  }
+
+  .ps-Cards {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .ps-authorCard {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .ps-joinUs-diplayFlex{
+    flex-direction: column;
+  }
+
+  .ps-joinUS-left{
+    width: 100%;
+  }
+
+  .ps-joinUS-right{
+    width: 100%;
+  }
+
+  .ps-footer{
+    flex-direction: column;
+    padding: 15px 5px;
+  }
+    .ps-copyright{
+      flex-direction: column;
+      font-size: .75rem;
+      line-height: 1.2rem;
+      font-weight: 500;
+    }
+}
+
+@media (min-width: 640px) {
+  .sm-heroLeft-h2 {
+    font-size: 3.9375rem;
+    line-height: 4.9375rem;
+  }
+  .sm-none {
+    display: none;
+  }
+  .sm-bgforHero {
+    height: 160vh;
+  }
+
+  .sm-heroLeft-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    height: 80vh;
+  }
+
+  .sm-heroleft-p {
+    font-size: 1.3125rem;
+    line-height: 1.75rem;
+  }
+
+  .sm-artleft {
+    width: 100%;
+  }
+
+  .sm-latestArt {
+    flex-direction: column;
+  }
+
+  .sm-artHead-h2 {
+    font-size: 2.625rem;
+    line-height: 2.625rem;
+  }
+
+  .sm-Artcard-h3 {
+    font-size: 1.3125rem;
+    line-height: 1.75rem;
+    margin-top: 10px;
+  }
+
+  .sm-desc-p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 15px 0px;
+  }
+
+  .sm-info {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .sm-user-engag-img {
+    width: 50%;
+  }
+
+  .sm-Cards {
+    width: 85%;
+    flex-direction: column;
+  }
+
+  .sm-authorCard {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+   .sm-joinUs-diplayFlex{
+    flex-direction: column;
+  }
+
+  .sm-joinUS-left{
+    width: 100%;
+  }
+
+  .sm-joinUS-right{
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .md-heroLeft-h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  .md-bgforHero {
+    height: 160vh;
+  }
+  .md-heroLeft-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    height: 80vh;
+  }
+
+  .md-heroleft-p {
+    font-size: 1.3125rem;
+    line-height: 1.9rem;
+  }
+  .md-Cards {
+    width: 85%;
+    flex-direction: column;
+  }
+
+  .md-authorCard {
+    width: 100%;
+  }
+
+   .md-joinUs-diplayFlex{
+    flex-direction: column;
+  }
+
+  .md-joinUS-left{
+    width: 100%;
+  }
+
+  .md-joinUS-right{
+    width: 100%;
+  }
+
+  .md-copyright-font{
+    font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  }
+}
+@media (min-width: 1024px) {
+  .lg-continer {
+    width: 90%;
+  }
+
+  .lg-heroLeft-h2 {
+    font-size: 4.2rem;
+    line-height: 5.2rem;
+  }
+  .lg-bgforHero {
+    height: 160vh;
+  }
+  .lg-heroLeft-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    height: 80vh;
+  }
+
+  .lg-heroleft-p {
+    font-size: 1.3125rem;
+    line-height: 2rem;
+  }
+
+  .lg-artleft {
+    width: 65%;
+  }
+
+  .lg-latestArt {
+    flex-direction: row;
+  }
+
+  .lg-artHead-h2 {
+    font-size: 2.725rem;
+    line-height: 2.725rem;
+  }
+
+  .lg-Artcard-h3 {
+    font-size: 1.4125rem;
+    line-height: 1.8rem;
+    margin-top: 10px;
+  }
+
+  .lg-desc-p {
+    font-size: 1.2rem;
+    line-height: 1.725rem;
+    margin: 15px 0px;
+  }
+
+  .lg-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .lg-user-engag-img {
+    width: 25%;
+  }
+
+  .lg-artRight {
+    width: 30%;
+    position: sticky;
+    top: 5%;
+    height: fit-content;
+  }
+
+  .lg-Cards {
+    width: 85%;
+    justify-content: space-around;
+    flex-direction: row;
+    
+  }
+
+  .lg-authorCard {
+    width: 30%;
+    margin-top: 0;
+  }
+
+  .lg-joinUs-diplayFlex{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .lg-joinUS-left{
+    width: 47%;
+  }
+
+  .lg-joinUS-right{
+    width: 45%;
+  }
+
+}
+@media (min-width: 1280px) {
+  .xlg-container {
+    width: 80%;
+  }
+  .xlg-100 {
+    width: 100%;
+  }
+  .dis-block {
+    display: block;
+  }
+  .dis-none {
+    display: none;
+  }
+  .xlg-heroRight {
+    width: 35%;
+    height: 50%;
+    left: 50%;
+    bottom: 20%;
+  }
+  .xlg-heroleft {
+    width: 35%;
+  }
+
+  .xlg-heroleft-h2-font {
+    font-size: 4.5rem;
+    line-height: 5.625rem;
+  }
+
+  .xlg-heroLeft-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    height: 80vh;
+  }
+
+  .xlg-bgforHero {
+    height: 110vh;
+  }
+
+  .xlg-heroleft-p {
+    font-size: 1.5125rem;
+    line-height: 2rem;
+  }
+
+  .xlg-artRight {
+    position: sticky;
+    top: 5%;
+    height: fit-content;
+  }
+
+  .xlg-artleft {
+    width: 65%;
+  }
+
+  .xlg-artcard {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+
+}
