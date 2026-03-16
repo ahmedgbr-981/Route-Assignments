@@ -8,11 +8,15 @@
     line-height: 3.9375rem;
   }
   .ps-bgforHero {
-    height: 150vh;
+    height: 160vh;
   }
 
   .ps-nav-none {
     display: none;
+  }
+
+  .ps-hero{
+    flex-direction: column;
   }
   .ps-heroLeft-flex {
     display: flex;
@@ -21,8 +25,10 @@
     padding: 10px 0px;
   }
   .ps-heroRight-pos {
-    left: 10%;
-    top: 100%;
+   top: 75%;
+   left: 10%;
+   width: 80%;
+   height: 20%;
   }
   .ps-heroleft-p {
     font-size: 1.3125rem;
@@ -123,10 +129,19 @@
     height: 160vh;
   }
 
+  .sm-hero{
+    flex-direction: column;
+  }
+  .sm-heroRight-pos {
+   top: 75%;
+   left: 10%;
+   width: 80%;
+   height: 20%;
+  }
+
   .sm-heroLeft-flex {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding: 0;
     height: 80vh;
   }
@@ -208,6 +223,16 @@
   .md-bgforHero {
     height: 160vh;
   }
+
+   .md-hero{
+    flex-direction: column;
+  }
+  .md-heroRight-pos {
+   top: 75%;
+   left: 10%;
+   width: 80%;
+   height: 20%;
+  }
   .md-heroLeft-flex {
     display: flex;
     flex-direction: column;
@@ -268,6 +293,18 @@
   .lg-bgforHero {
     height: 160vh;
   }
+
+    .lg-hero{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .lg-heroRight-pos {
+   top: 30%;
+   left: 60%;
+   width: 50%;
+   height: 30%;
+  }
   .lg-heroLeft-flex {
     display: flex;
     flex-direction: column;
@@ -279,6 +316,7 @@
   .lg-heroleft-p {
     font-size: 1.3125rem;
     line-height: 2rem;
+    width: 50%;
   }
 
   .lg-artleft {
@@ -393,6 +431,7 @@
   .xlg-heroleft-p {
     font-size: 1.5125rem;
     line-height: 2rem;
+    width: 100%;
   }
 
   .xlg-artRight {
